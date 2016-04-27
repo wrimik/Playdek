@@ -1,0 +1,10 @@
+#nav{
+    position:fixed;
+    width:100%;
+    z-index: 100;
+}
+#jump-to{
+    position:fixed;
+    top:79px;
+    z-index: 90;
+}

@@ -1,0 +1,1124 @@
+body{
+    color:#333;
+    background:#e9eaed;
+    font-size:15px;
+}
+body.pending{
+    display: none;
+}
+h1, h2, h3, h4, h5{
+    font-family:"ProximaNova-Semibold";
+}
+h1{
+    color:#333;
+    font-size:32px;
+    margin-top:20px;
+}
+.caption h1 {
+    clear: none;
+    color: #ed8626;
+    float: left;
+    font-size: 55px;
+    width: auto;
+    padding-top:17px;
+}
+h1 img{
+    margin-right:20px;
+}
+.game-desc h1 {
+    padding-bottom: 16px;
+    text-align: center;
+}
+h2 {
+    color: #787c85;
+    font-size: 22px;
+    line-height: 1.4;
+    margin: 14px 0 11px;
+}
+h2.stripe-title {
+    display: block;
+    font-family: 'ProximaNova-Light';
+    font-size: 56px;
+    height: auto;
+    overflow: hidden;
+    text-shadow: 0 0 10px #000;
+    width: 100%;
+    margin: 0px;
+    padding: 0;
+}
+h2.stripe-title.black{
+    text-shadow: none;
+    color:#000;
+}
+.center{
+    text-align: center;
+}
+.white{
+    font-size:24px;
+    padding:18px 0 13px;
+    font-weight:normal;
+    color:#fff;
+}
+h2 img, h2 .glyphicon {
+    clear: none;
+    display: block;
+    float: left;
+    margin-right: 15px;
+}
+h2 .glyphicon {
+    position:relative;
+    top:3px;
+}
+h3{
+    font-size:20px;
+    color:#3b599e;
+    margin-top: 5px;
+}
+.caption {
+    overflow:hidden;
+}
+.caption .glyphicon, .caption img {
+    clear: none;
+    float: left;
+    padding: 17px 31px 15px 0;
+    font-size:89px;
+    height:126px;
+}
+.card.page-title{
+    height:127px;
+}
+.mini-caption h2 .glyphicon{
+    position:relative;
+    clear: none;
+    float: left;
+    font-size: 24px;
+    height: 20px;
+    padding: 0 0 17px;
+}
+p{
+    font-size:16px;
+}
+.navbar-inverse{
+    background:#000;
+}
+nav.navbar {
+    border-radius: 0;
+    margin-bottom: 0;
+    min-height: 78px;
+    width: 100%;
+    top: 0;
+    z-index: 100;
+}
+.container-fluid{
+    max-width:990px;
+}
+.nav{
+    padding-top:15px;
+}
+.navbar-header{
+    min-height:77px;
+}
+.navbar-brand{
+    padding-top:0;
+}
+.navbar-inverse .navbar-nav > li > a{
+    color:#999;
+}
+.navbar-nav.social > li > a{
+    color: #fff;
+    font-size: 20px;
+    height: 35px;
+    line-height: 0;
+    margin: 7px;
+    padding: 8px 9px;
+    text-align: center;
+    width: 35px;
+}
+.navbar-nav.social > li {
+    clear: none;
+    float: left;
+    max-width: 33.3%;
+}
+.navbar-nav.social > li > a:hover{
+    opacity:.9;
+}
+.ig, .navbar-nav.social > li > a.ig:hover{ background-color:#b38c4f;}
+.fb, .navbar-nav.social > li > a.fb:hover{ background-color:#4f6dab; text-indent:2px;}
+.tw, .navbar-nav.social > li > a.tw:hover{ background-color:#3f6a97;}
+.yt, .navbar-nav.social > li > a.yt:hover{ background-color:#e03138;}
+
+
+#mobile-game-link-icons{
+    display:none;
+}
+.game-link a img {
+    clear: both;
+    display: block;
+    float: none;
+    margin: 0 auto;
+    width: 125px;
+    padding-bottom:10px;
+}
+.game-link a {
+    color: #fff;
+    display: block;
+    text-align: center;
+    width: 100%;
+}
+#games-nav {
+    height: 180px;
+    overflow: hidden;
+    width: 100%;
+    padding-top:5px;
+    display:none;
+}
+#games-nav.showing{
+    display:block;
+}
+#games-nav #game-link-icons {
+    display: block;
+    float: none;
+    height: 184px;
+    left: 186px;
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 15px 0 0;
+    position: absolute;
+    white-space: nowrap;
+    width: 10000px;
+}
+#game-link-icons a {
+    color: #fff;
+}
+.game-scroll {
+    background: #333;
+    color: #fff;
+    float: left;
+    height: 182px;
+    line-height: 183px;
+    position: relative;
+    width: 40px;
+    text-align: center;
+    cursor:pointer;
+}
+.game-scroll:hover{
+    background:#3b599e;
+}
+#game-link-icons > div{
+    position:relative
+}
+.game-scroll.gs-right {
+    right: -1px;
+    position: absolute;
+}
+.game-link {
+    clear: none;
+    display: inline-block;
+    float: left;
+    padding: 0 30px;
+    position: static;
+}
+#games-nav > div > div > a{
+    color:#fff;
+}
+#games-nav > div {
+    clear: none;
+    float: left;
+    height: 179px;
+}
+#game-link-view-all a {
+    color: #fff;
+    height: 125px;
+    width: 100%;
+}
+#games-nav > #game-link-view-all {
+    width: 145px;
+    line-height: 178px;
+    padding: 0 25px;
+    text-align: center;
+}
+/*@media(max-width:600px){
+    #games-nav > div > a,
+    #games-nav > div > div{
+        display:block;
+        float:left;
+        clear:none;
+        width:90px;
+        height:90px
+    }
+    #games-nav > div > a {
+        border-right: 1px solid #666;
+        color: #fff;
+        display: table-cell;
+        max-height: 58px;
+        padding-top: 19px;
+        vertical-align: middle;
+    }
+}*/
+.dropdown-menu.ng-scope > li:nth-child(1),
+.dropdown-menu.ng-scope > li.divider {
+    width: 100%;
+}
+.dropdown-menu.ng-scope > li {
+    float: left;
+    width: 50%;
+}
+.navbar-nav > li > .dropdown-menu{
+    width:440px;
+}
+#nav{
+    width:100%;
+    z-index: 100;
+    overflow:hidden;
+}
+#jump-to{
+    z-index: 90;
+}
+.btn-big{
+    width:100%;
+    font-size:20px;
+}
+.btn{
+    border-radius:0;
+    border:none;
+}
+.btn-primary, .card.btn-primary{
+    background:#3b599e;
+}
+.btn-primary:hover, .card.btn-primary:hover{
+    background:#ed8626;
+}
+.btn-info, .card.btn-info{
+    background:#ed8626;
+}
+.btn-info:hover, .card.btn-info:hover{
+    background:#f0b379;
+}
+
+a, a:visited, #edit-expansions div{
+    color:#3b599e;
+}
+a:hover, #edit-expansions div, .caption, .small-caption, .med-caption{
+    color:#ed8626;
+}
+.med-caption{
+    font-size:36px;
+}
+a.btn{
+    color:#fff;
+}
+.primary{
+    padding-top:25px;
+}
+.itunes{
+    background:#000;
+}
+.itunes:hover{
+    background:#333;
+}
+.card {
+    background: none repeat scroll 0 0 #fff;
+    box-shadow: 10px 10px 0 #d0d1d5;
+    height: 100%;
+    margin-right: 15px;
+    overflow: auto;
+    padding:15px 6%;
+    width: 100%;
+    margin-bottom: 20px;
+}
+.np{
+    padding:0;
+}
+.pb40{
+    padding-bottom:40px;
+}
+.card.sp{
+    padding: 0 5%;
+}
+.article{
+
+}
+.footer{
+    background:#000;
+    padding:25px 0 65px;
+    color:#fff;
+}
+.footer h4{
+    font-size:22px;
+}
+.footer-games li{
+    width:50%;
+    float:left;
+    clear:none;
+}
+.sitemap a{
+    color:#fff;
+    font-size:17px;
+    display:block;
+    float:none;
+    clear:both;
+}
+.footer ul {
+    list-style: none outside none;
+    padding: 0;
+}
+.footer ul li ul{
+    padding-left:15px;
+}
+.footer ul li b{
+    color:#888;
+    font-size:14px;
+}
+.footer ul li a{
+    font-size:14px;
+}
+.footer .nav {
+    float: none;
+    margin: 0 auto;
+    width: 146px;
+    padding-top:25px;
+}
+/* ---------------------------------   SLIDE SHOW    --------------------------------- */
+.carousel-caption a[href='']{
+    display:none;
+}
+.carousel-caption {
+    float: right;
+    margin-right: -46px;
+    padding: 0;
+    width: auto;
+}
+.carousel-inner{
+    background-color:#555;
+}
+.carousel-inner .item{
+    padding:20px 0;
+}
+.item > img{
+    margin:0 auto;
+}
+#carousel-games{
+    padding:25px 0 ;
+}
+#carousel-controls{
+    float: none;
+    clear:both;
+    overflow:hidden;
+    height:100px;
+    width:100%;
+    background:#333;
+}
+.carousel-control {
+    background: #3b599e;
+    display: inline-block;
+    float: left;
+    height: 93px;
+    margin: 0;
+    opacity: 1;
+    position: relative;
+    top: 4px;
+    width:50px;
+}
+ol.carousel-indicators {
+    clear: none;
+    display: inline-block;
+    float: left;
+    height: 93px;
+    left: 0;
+    margin: 0;
+    position: relative;
+    top: 4px;
+    width: calc(100% - 100px);
+}
+.carousel-control.left, .carousel-control.right{
+    background-image:none;
+}
+.carousel-control.right{
+    float:right;
+}
+.carousel-indicators li, 
+.carousel-indicators li.active {
+    border-color:transparent;
+    background-color:transparent;
+    border-radius: 0;
+    clear: none;
+    float: left;
+    height: 93px;
+    margin: 0;
+    width: 20%;
+    background-size: 100% auto; 
+    background-position: center center; 
+    background-repeat: no-repeat;
+}
+.carousel-indicators li.active{
+    background-color:transparent;
+    border-color:#fff;
+}
+/* ---------------------------------   END SLIDE SHOW    --------------------------------- */
+.stripe{
+    overflow:auto;
+    margin:0 auto;
+    width:100%;
+    border-bottom:3px solid #444;
+    padding:40px 0 35px;
+}
+.stripe.big-logo {
+    background: #160201;
+    padding: 0;
+}
+.linen{
+    background:url('../images/linen.jpg');
+}
+.stripe.big-logo img{
+    max-width:100%;
+    margin:0 auto;
+    display:block;
+}
+#who-is-playdek{
+    background:url('../images/who-is.jpg');
+    background-size: auto 100%;
+    padding: 75px 0 55px;
+}
+#who-is-playdek #who-is-title{
+    font-size: 50px;
+    padding-top: 40px;
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.9); ;
+}
+@media(max-width:768px){
+    #who-is-playdek{
+        padding-top: 35px;
+    }
+    #who-is-playdek #who-is-title{
+        padding-top: 0;
+        text-align:center;
+    }
+}
+#mber{
+    background:#7397ea;
+    padding:35px 0 35px;
+    color:#FFF;
+}
+#mber h2 {
+    margin-bottom: 0;
+    padding: 0;
+    font-size: 38px;
+}
+.gamethumb{
+    width:100%;
+    margin:0 auto 10px;
+    float:none;
+    clear:both;
+}
+.card.sp.list {
+    line-height: 29px;
+    padding-bottom: 25px;
+}
+.blogdate {
+    color: #d5d5d5;
+    font-family: "ProximaNova-Regular";
+    font-size: 15px;
+    font-style: normal;
+    padding:7px 0 0 10px;
+}
+.card div.blog-preview {
+    display: block;
+    float: none;
+    height: 182px;
+    overflow: hidden;
+    border-bottom: 25px solid #fff;
+}
+.comments-link, .assistive-text{
+    display:none;
+}
+.entry-meta{
+    font-size:13px;
+    color:#888;
+}
+/* ---------------------------------   NEWS    --------------------------------- */
+.card.news-preview  .news-img-col{
+    border: 1px solid #d0d1d6;
+    margin: 0 30px 0 0;
+    padding: 0;
+}
+.card.news-preview{
+    padding-top:25px;
+    padding-bottom:25px;
+}
+.news-preview > div:nth-child(1){
+    padding-left:0;
+}
+.news-preview h3 {
+    min-height: 62px;
+}
+.news-title{
+    font-size:28px;
+}
+.news-preview p {
+    font-size: 16px;
+    line-height: 1.7em;
+    text-align: justify;
+}
+.news-date {
+    color: #888;
+    display: inline-block;
+    font-size: 12px;
+    padding-top: 9px;
+}
+@media (min-width:780px){
+    .news-img{
+        float:left
+    }
+}
+/* ---------------------------------   END NEWS   --------------------------------- */
+
+
+
+/* ---------------------------------   GAMES --------------------------------- */
+
+.game-banner {
+    display: block;
+    float: none;
+    margin: 0 auto 25px;
+    max-width: 846px;
+    width: 100%;
+}
+.game-thumb{
+    width:50%;
+    float:left;
+    clear:none;
+    padding: 10px 0 10px 0;
+    overflow:hidden;
+}
+.game-thumb:nth-child(2n){
+    padding-left:10px;
+}
+.game-thumb:nth-child(2n+1){
+    padding-right:10px;
+}
+.game-imgs img{
+    cursor:pointer;
+    max-width:100%;
+    float:right;
+}
+.game-imgs img:hover {
+    opacity:0.8;
+}
+.game-desc h2{
+    color:#333;
+    font-size:27px;
+}
+
+.game-specs {
+}
+.game-specs i{
+    font-style: normal;
+    color:#898989;
+    font-size:14px;
+    font-family:"ProximaNova-Regular";
+}
+.game-specs a.btn.btn-primary{
+    width:100%;
+    margin:8px 0;
+}
+.game-specs a[href='']{
+    display:none;
+}
+.list-head{
+    width:100%;
+    height:38px;
+    font-size:18px;
+    text-align: center;
+    padding:5px 0 4px;
+    background:#333;
+    color:#fff;
+}
+.list-body {
+    background:#efefef;
+    padding: 19px;
+    width: 100%;
+}
+#game_bottom {
+    padding-bottom: 19px;
+}
+.game-over{
+    border-top: 1px solid #d0d1d6;
+    clear: both;
+    float: none;
+    margin-top: 10px;
+    padding-top: 30px;
+}
+.game-over h3 a{
+    text-decoration: underline;
+    font-family:"ProximaNova-Regular";
+    font-size:23px;
+}
+.game-desc img{
+    max-width:100%;
+}
+.game-banner-sm{
+    margin:0 auto 19px;
+    display:block;
+    float:none;
+    clear:both;
+    max-width:100%;
+}
+.game-previews .card {
+    padding-bottom: 0;
+}
+.game-previews a {
+    font-size: 22px;
+    text-align: center;
+    width:100%;
+    display:block;
+}
+/* ---------------------------------   END GAMES --------------------------------- */
+
+
+/* ---------------------------------   BLOG  --------------------------------- */
+#searchform{
+    display:none;
+}
+#secondary {
+    padding: 0 16px 16px;
+}
+#secondary li {
+    list-style: none outside none;
+}
+#secondary ul {
+    padding-left: 15px;
+}
+#secondary h3{
+    margin-bottom: 0;
+    margin-top: 20px;
+}
+/* ---------------------------------   END BLOG  --------------------------------- */
+.partner img{
+    display:block;
+    float:none;
+    margin:0 auto;
+}
+
+
+/* Calendar Container */
+#ui-datepicker-div {
+    width: 216px;
+    height: auto;
+    margin: 5px auto 0;
+    font: 9pt Arial, sans-serif;
+    background-color:#fff;
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, .5);
+    -moz-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, .5);
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, .5);
+}
+#ui-datepicker-div a {
+    text-decoration: none;
+}
+/* Date Picker Header */
+.ui-datepicker-header {
+    background: url('../img/dark_leather.png') repeat 0 0 #000;
+    color: #e0e0e0;
+    font-weight: bold;
+    -webkit-box-shadow: inset 0px 1px 1px 0px rgba(250, 250, 250, 2);
+    -moz-box-shadow: inset 0px 1px 1px 0px rgba(250, 250, 250, .2);
+    box-shadow: inset 0px 1px 1px 0px rgba(250, 250, 250, .2);
+    text-shadow: 1px -1px 0px #000;
+    filter: dropshadow(color=#000, offx=1, offy=-1);
+    line-height: 30px;
+    border-width: 1px 0 0 0;
+    border-style: solid;
+    border-color: #111;
+}
+.ui-datepicker-title {
+    text-align: center;	
+}
+.ui-datepicker-prev {
+    float: left;
+    background-position: center -30px;
+}
+.ui-datepicker-next {
+    float: right;
+}
+.ui-datepicker-prev, .ui-datepicker-next {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    line-height: 29px;
+    color:#fff;
+    overflow: hidden;
+}
+/* Date Picker Table */
+.ui-datepicker table {
+    width: 100%;
+}
+.ui-datepicker thead {
+    background-color: #f7f7f7;
+    background-image: -moz-linear-gradient(top,  #f7f7f7 0%, #f1f1f1 100%);
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f7f7f7), color-stop(100%,#f1f1f1));
+    background-image: -webkit-linear-gradient(top,  #f7f7f7 0%,#f1f1f1 100%);
+    background-image: -o-linear-gradient(top,  #f7f7f7 0%,#f1f1f1 100%);
+    background-image: -ms-linear-gradient(top,  #f7f7f7 0%,#f1f1f1 100%);
+    background-image: linear-gradient(top,  #f7f7f7 0%,#f1f1f1 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f7f7f7', endColorstr='#f1f1f1',GradientType=0 );
+    border-bottom: 1px solid #bbb;
+}
+.ui-datepicker th {
+    text-transform: uppercase;
+    font-size: 6pt;
+    padding: 5px 0;
+    color: #666666;
+    text-shadow: 1px 0px 0px #fff;
+    filter: dropshadow(color=#fff, offx=1, offy=0);
+}
+.ui-datepicker tbody td {
+    padding: 0;
+    border-right: 1px solid #bbb;
+}
+.ui-datepicker tbody td:last-child {
+    border-right: 0px;
+}
+.ui-datepicker tbody tr {
+    border-bottom: 1px solid #bbb;
+}
+.ui-datepicker tbody tr:last-child {
+    border-bottom: 0px; 
+}
+.ui-datepicker td span, .ui-datepicker td a {
+    display: inline-block;
+    font-weight: bold;
+    text-align: center;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    color: #666666;
+    text-shadow: 1px 1px 0px #fff;
+    filter: dropshadow(color=#fff, offx=1, offy=1);
+}
+/* Date Picker Hover & Active */
+.ui-datepicker-calendar .ui-state-default {
+    background: #ededed;
+    background: -moz-linear-gradient(top,  #ededed 0%, #dedede 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ededed), color-stop(100%,#dedede));
+    background: -webkit-linear-gradient(top,  #ededed 0%,#dedede 100%);
+    background: -o-linear-gradient(top,  #ededed 0%,#dedede 100%);
+    background: -ms-linear-gradient(top,  #ededed 0%,#dedede 100%);
+    background: linear-gradient(top,  #ededed 0%,#dedede 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ededed', endColorstr='#dedede',GradientType=0 );
+    -webkit-box-shadow: inset 1px 1px 0px 0px rgba(250, 250, 250, .5);
+    -moz-box-shadow: inset 1px 1px 0px 0px rgba(250, 250, 250, .5);
+    box-shadow: inset 1px 1px 0px 0px rgba(250, 250, 250, .5);
+}
+.ui-datepicker-calendar .ui-state-hover {
+    background: #f7f7f7;
+}
+.ui-datepicker-calendar .ui-state-active {
+    background: #6eafbf;
+    -webkit-box-shadow: inset 0px 0px 10px 0px rgba(0, 0, 0, .1);
+    -moz-box-shadow: inset 0px 0px 10px 0px rgba(0, 0, 0, .1);
+    box-shadow: inset 0px 0px 10px 0px rgba(0, 0, 0, .1);
+    color: #e0e0e0;
+    text-shadow: 0px 1px 0px #4d7a85;
+    filter: dropshadow(color=#4d7a85, offx=0, offy=1);
+    border: 1px solid #55838f;
+    position: relative;
+    margin: -1px;
+}
+.ui-datepicker-calendar td:first-child .ui-state-active {
+    width: 29px;
+    margin-left: 0;
+}
+.ui-datepicker-calendar td:last-child .ui-state-active {
+    width: 29px;
+    margin-right: 0;
+}
+.ui-datepicker-calendar tr:last-child .ui-state-active {
+    height: 29px;
+    margin-bottom: 0;
+}
+.ui-datepicker-unselectable .ui-state-default {
+    background: #f4f4f4;
+    color: #b4b3b3;
+}
+
+label .hint{
+    font-weight:normal;
+    font-size:13px;
+    color:#999;
+}
+label .hint b{
+    color:#d33;
+}
+.support #forward,
+.troubleshooting #forward,
+.troubleshooting #preview,
+.troubleshooting #date,
+.features #forward,
+.features #preview,
+.features #date{
+    display:none;
+}
+.tsToggle{
+    cursor:pointer;
+}
+.tsToggle:hover{
+    font-style: italic;
+    text-decoration: underline;
+}
+.ts-topic {
+    display:none;
+    box-shadow: 0 0 3px #d0d1d6;
+    margin: 20px 0;
+    padding: 20px 36px;
+}
+
+.game-img {
+    clear: none;
+    float: left;
+    font-size: 13px;
+    margin: 0 15px 15px 0;
+    text-align: center;
+    height: 151px;
+    overflow: hidden;
+}
+.game-img img {
+    width: 192px;
+}
+.delete {
+    background: #900;
+    color: #fff;
+    cursor: pointer;
+    font-weight: bold;
+    opacity: 0.3;
+}
+.delete:hover{
+    opacity:1;   
+}
+.new_hide_new{
+    display:none;
+}
+.banner-img-uploads {
+    border: 2px solid #d0d1d6;
+    margin: 18px;
+    padding: 20px;
+}
+.banner-small {
+    width: 100%;
+}
+.news-img  img{
+    width:100%;
+    float:left;
+    clear:none;
+    display:block;
+    margin:0 auto;
+}
+.article-img{
+    clear: none;
+    float: left;
+    padding: 0 15px 15px 0;
+}
+#signup_email {
+    float: left;
+    margin-bottom: 23px;
+    width: 100%;
+}
+#jump-to {
+    background: none repeat scroll 0% 0% #3b599e;
+    color: #ffffff;
+    display: table;
+    height: 36px;
+    width: 100%;
+}
+#jump-to a {
+    color: #ffffff;
+    display: table-cell;
+    padding: 8px 0px;
+    text-align: center;
+}
+#jump-to .container-fluid {
+    display: table;
+    margin: 0px auto;
+    max-width: 960px;
+    padding: 0px;
+    width: 100%;
+}
+.jt-container {
+    display: table-row;
+}
+.forum_link {
+    border-bottom: 1px solid #d0d1d6;
+    overflow: auto;
+    margin-bottom: 13px;
+    background-image:url('../images/move.jpg');
+    background-repeat:no-repeat;
+    cursor:move;
+}
+a.forum{
+    display: block;
+    float: none;
+    padding: 14px 0 13px;
+    border-bottom: 1px solid #d0d1d6;
+    height: 50px;
+}
+a.forum:last-child{
+    border-bottom:none;
+}
+div.fb_iframe_widget {
+    display: block;
+    float: none;
+    margin: 0 auto;
+    width: 295px;
+}
+.stripe div.aside {
+    padding-top:0;
+}
+.stripe div.aside p{
+    font-size:22px;
+    font-family:'ProximaNova-Light';
+    margin-bottom:0;
+}
+#unsung-story{
+    background-image:url('../images/unsung-background.jpg');
+}
+#twilight-struggle{
+    background-image:url('../images/twilight-struggle.jpg');
+}
+.featured-game{
+    padding:45px 0;
+}
+.featured-game h2 {
+    text-align: center;
+    font-size: 28px;
+    color: #000;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #d0d1d6;
+    padding-bottom: 5px;
+}
+.featured-game .btn-info{
+    margin-right:25px;
+}
+.featured-game .card p:nth-child(2) {
+    min-height: 176px;
+}
+figure {
+    display:block;
+    float:none;
+    clear:both;
+    padding:0;
+    width:100%;
+    overflow:visible;
+}
+figure img {
+    display: block;
+    float: none;
+    margin: 45px auto;
+    padding: 0;
+    max-width:95%;
+}
+.presses .card{
+    min-height:329px;
+}
+.presses .card a{
+    display:block; 
+    float:none;
+    clear:both;
+    padding:4px 0 3px;
+    border-bottom: 1px solid #d0d1d6;
+
+}
+.presses .card a:last-child{
+    border-bottom:none;
+}
+.presses .card h2 {
+    margin: 0 0 15px;
+    padding: 0 0 0 5px;
+    text-align: center;
+}
+.presses .card img {
+    display: inline-block;
+    float: none;
+    margin-right: 6px;
+}
+#community .card {
+    min-height: 405px;
+    overflow: hidden;
+}
+.avail{
+    padding:7px;
+}
+
+#dlc {
+    border-top: 1px solid #d0d1d6;
+    margin-top: 60px;
+    background:#dfdfdf;
+}
+#dlc > h2 {
+    background: none repeat scroll 0 0 #777;
+    color: #fff;
+    margin: 0;
+    padding: 5px 0;
+}
+.dlc-title {
+    background: none repeat scroll 0 0 #efefef;
+    border: 1px solid #d0d1d6;
+    border-width: 0 0 1px 1px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 9px 0 8px 13px;
+    text-align: left;
+}
+#dlc-content {
+    background: #fff;
+    border: 1px solid #d0d1d6;
+    padding: 33px 42px 10px;
+    text-align: justify;
+}
+.dlc-content{
+    display:none;
+}
+.dlc-content.selected{
+    display:block;
+}
+.dlc-title.selected{
+    background:#fff;
+}
+#dlc h3 {
+    font-size: 34px;
+}
+
+
+@media(max-width:767px){
+    #games-nav .game-scroll, 
+    #games-nav #game-link-view-all,
+    #games-nav #game-link-icons{
+        display:none;
+    }
+    #mobile-game-link-icons{
+        display:block;
+    }
+    #mobile-game-link-icons a{
+        display:block;
+        width:125px;
+        height:125px;
+        float:left;
+        clear:none;
+        color:#fff;
+        text-align:center;
+        margin:15px;
+    }
+
+    #mobile-game-link-icons a img{
+        border:none;
+        width:100%;
+        margin-bottom:10px;
+    }
+    #games-nav > #mobile-game-link-icons {
+        height: auto;
+    }
+    #games-nav {
+    overflow: auto;
+    height: auto;
+  }
+}

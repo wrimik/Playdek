@@ -1,0 +1,2 @@
+[01-Sep-2014 12:29:00 America/Los_Angeles] PHP Fatal error:  Call to undefined method Forum::clear() in /home5/orangfc1/public_html/wrimik/clients/playdek/admin/process/forum.php on line 10
+[01-Sep-2014 12:31:26 America/Los_Angeles] PHP Fatal error:  Call to undefined method Forum::clear() in /home5/orangfc1/public_html/wrimik/clients/playdek/admin/process/forum.php on line 10

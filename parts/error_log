@@ -1,0 +1,2 @@
+[14-Aug-2014 19:27:57 America/Los_Angeles] PHP Notice:  Undefined variable: article in /home5/orangfc1/public_html/wrimik/clients/playdek/class/article.php on line 56
+[15-Aug-2014 02:27:57 UTC] PHP Fatal error:  Cannot use object of type WP_Post as array in /home5/orangfc1/public_html/wrimik/clients/playdek/parts/blog-posts.php on line 11
